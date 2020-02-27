@@ -5,7 +5,6 @@
 * pkg install python
 * pkg install python3
 * pip install requests
-* pip install colorama 
 * pip install git
 * git clone https://github.com/Artem450-ss/NanoBomber 
 * cd NanoBomber 
