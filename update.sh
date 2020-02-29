@@ -1,4 +1,4 @@
 clear
 rm -rf NanoBomber
 git clone https://github.com/Artem450-ss/NanoBomber
-sh NanoBomber/update.sh
+sh NanoBomber/install.sh
