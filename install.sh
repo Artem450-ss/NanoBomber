@@ -15,7 +15,6 @@ then
       apt install python3
       apt install python3-pip
       pip3 install requests
-      pkg install git
       pip3 install colorama
       cd NanoBomber
       python3 nano.py
