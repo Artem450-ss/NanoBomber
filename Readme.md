@@ -2,12 +2,15 @@
 
 * apt update && apt upgrade
 * pkg install git
-* https://github.com/Artem450-ss/NanoBomber
+* git clone https://github.com/Artem450-ss/NanoBomber
 * sh NanoBomber/install.sh
 * Готово! 
 
 # Обновление бомбера!
-* sh NanoBomber/update.sh
+* rm -rf NanoBomber
+* git clone https://github.com/Artem450-ss/NanoBomber
+* cd NanoBomber
+* python3 nano.py
 
 # Инфо
 если уж что-то не понятно, пиши в телеграм разработчику! @artem450
