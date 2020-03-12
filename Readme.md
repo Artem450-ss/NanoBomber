@@ -1,10 +1,17 @@
 # Установка!:
 
 * apt update && apt upgrade
+* pkg install python
+* pkg install python3
+* pkg install python3-pip
+
+* pip3 install requests
+* pip3 install colorama
 * pkg install git
 * git clone https://github.com/Artem450-ss/NanoBomber
-* sh NanoBomber/install.sh
-* Готово! 
+* cd NanoBomber
+* python nano.py
+* Готово!
 
 # Чтобы запустить потом, после установки...
 * cd NanoBomber
