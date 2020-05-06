@@ -7,6 +7,7 @@
 
 * pip3 install requests
 * pkg install git
+* pip install termcolor
 * git clone https://github.com/Artem450-ss/NanoBomber
 * cd NanoBomber
 * python nano.py
