@@ -10,18 +10,19 @@
 * pip install termcolor
 * git clone https://github.com/Artem450-ss/NanoBomber
 * cd NanoBomber
-* python nano.py
+* python NanoBomber.py
 * Готово!
 
 # Чтобы запустить потом, после установки...
 * cd NanoBomber
-* python nano.py
+* python NanoBomber.py
 
 # Обновление бомбера!
+* как только вы увидели, в моём телеграм канале, что надо обновится, делаем так:
 * rm -rf NanoBomber
 * git clone https://github.com/Artem450-ss/NanoBomber
 * cd NanoBomber
-* python3 nano.py
+* python3 NanoBomber.py
 
 # Инфо
 если уж что-то не понятно, пиши в телеграм разработчику! @artem450
