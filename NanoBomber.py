@@ -4,7 +4,7 @@ from requests import post, get
 import json
 from termcolor import colored
 
-version = 1.051
+version = 1.5
 set = [1, 10]
 fav_phones = []
 
@@ -62,13 +62,13 @@ def update():
     global version
     print("Проверка обновлений")
     try:
-        upd=requests.get('https://raw.githubusercontent.com/MaksPV/AresBomb/master/last_version.txt')
+        upd=requests.get('https://raw.githubusercontent.com/Artem450-ss/NanoBomber/master/last_version.txt')
         upd_vers = float(upd.text[0:6])
         if upd_vers > version:
             print("Найдено обновление\n" + upd.text[0:6] + "\nИзменения:\n" + upd.text[7:])
             print("\nНачато обновление")
-            upd_boom=requests.get('https://raw.githubusercontent.com/MaksPV/AresBomb/master/boom.py')
-            f = open("boom.py", "wb")
+            upd_boom=requests.get('https://raw.githubusercontent.com/Artem450-ss/NanoBomber/master/NanoBomber.py')
+            f = open("NanoBomber.py", "wb")
             f.write(upd_boom.content)
             f.close()
             print("\nОбновление завершено, откройте бомбер заново командой\npython boom.py")
