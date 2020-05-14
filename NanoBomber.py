@@ -4,7 +4,7 @@ from requests import post, get
 import json
 from termcolor import colored
 
-version = 1.5
+version = 1.6
 set = [1, 10]
 fav_phones = []
 
